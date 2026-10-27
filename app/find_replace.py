@@ -26,7 +26,6 @@ class FindReplaceDialog(QDialog):
         self.setWindowTitle("Find")
         self.setFixedHeight(34)  # VS Code default height
         self.setMinimumWidth(300)
-        self.setWindowFlag(Qt.WindowType.WindowStaysOnTopHint)
         self._replace_visible = False
         self._match_count = 0
         self._current_match_index = 0
