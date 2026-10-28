@@ -68,7 +68,7 @@ python main.py path\to\notes.txt
 ### Build executable (optional)
 
 ```bash
-pyinstaller Notepad_minus.spec
+pyinstaller --clean Notepad_minus.spec
 ```
 
 The built app expects `icon.ico` beside the executable (same as `main.py` uses in development).

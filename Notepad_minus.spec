@@ -33,6 +33,9 @@ a = Analysis(
         'spellchecker',
         'spellchecker.spellchecker',
         'spellchecker.utils',
+        'PyQt6.QtCore',
+        'PyQt6.QtGui',
+        'PyQt6.QtWidgets',
     ],
     hookspath=[],
     hooksconfig={},
@@ -72,7 +75,7 @@ coll = COLLECT(
     a.zipfiles,
     a.datas,
     strip=False,
-    upx=True,
+    upx=False,
     upx_exclude=[],
     name='Notepad minus',
 )
